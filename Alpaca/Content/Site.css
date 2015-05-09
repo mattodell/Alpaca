@@ -1,24 +1,71 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
-
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-top: 50px;
+  font-family: Arial;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
 .dl-horizontal dt {
-    white-space: normal;
+  white-space: normal;
 }
-
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
-    max-width: 280px;
+  max-width: 280px;
 }
+.navbar {
+  padding-top: 20px;
+}
+.navbar {
+  background-color: white;
+  font-family: Arial;
+}
+.navbar-default .navbar-brand {
+  color: #ff671f;
+}
+.navbar-nav > li > a {
+  color: #ff671f;
+}
+.navbar-small-bold {
+  font-size: 11px;
+  font-weight: bold;
+}
+.header-right-list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.title-logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 50px;
+}
+.spacer {
+  min-height: 30px;
+}
+.allegion-button {
+  background-color: #ff8f1c;
+}
+.main-screen-button {
+  vertical-align: middle;
+}
+/* Footer */
+hr {
+  border-color: #ff671f;
+}
+.footer {
+  color: #ff671f;
+  font-size: 9px;
+  font-family: Arial;
+  text-align: center;
+}
+/*# sourceMappingURL=Site.css.map */
