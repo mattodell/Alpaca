@@ -23,7 +23,7 @@
     <div class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="brand" href="/"> <img class="title-logo" src="/images/alpaca-logo.png" /></a>
+                <a class="brand" href="/"> <img class="title-logo" src="~/Content/Images/alpaca_white_trans.png" /></a>
             </div>
             <div class="navbar-default">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,7 +35,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("My Projects", "Index", "Project")</li>
                     <li>@Html.ActionLink("New Project", "Create", "Project")</li>
+                    <li>@Html.ActionLink("View Portfolio", "Index", "Portfolio")</li>
+                    <li>@Html.ActionLink("Administration", "Index", "Admin")</li>
                 </ul>
                 <ul class="nav nav-stacked navbar-right">
                     <li class="navbar-text navbar-small-bold header-right-list">Current User: TODO</li>

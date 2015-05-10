@@ -1,10 +1,10 @@
 ﻿body {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 /* Set padding to keep content from hitting the edges */
 .body-content {
-  padding-top: 50px;
+  padding-top: 30px;
   font-family: Arial;
   padding-left: 15px;
   padding-right: 15px;
@@ -21,18 +21,17 @@ select,
 textarea {
   max-width: 280px;
 }
+/* Header*/
 .navbar {
-  padding-top: 20px;
-}
-.navbar {
-  background-color: white;
+  padding-top: 10px;
+  background-color: #bbdefb;
   font-family: Arial;
 }
 .navbar-default .navbar-brand {
-  color: #ff671f;
+  color: #1976d2;
 }
 .navbar-nav > li > a {
-  color: #ff671f;
+  color: #1976d2;
 }
 .navbar-small-bold {
   font-size: 11px;
@@ -45,27 +44,30 @@ textarea {
   margin-bottom: 0px;
 }
 .title-logo {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 60px;
+  max-height: 60px;
   margin-right: 50px;
 }
 .spacer {
   min-height: 30px;
 }
-.allegion-button {
-  background-color: #ff8f1c;
-}
-.main-screen-button {
-  vertical-align: middle;
-}
 /* Footer */
 hr {
-  border-color: #ff671f;
+  border-color: #b6b6b6;
 }
 .footer {
-  color: #ff671f;
+  color: #1976d2;
   font-size: 9px;
   font-family: Arial;
   text-align: center;
+}
+/* Content */
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url('Images/wildflowers.jpg');
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
 /*# sourceMappingURL=Site.css.map */
